@@ -1,9 +1,79 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Página-1" id="YoxhpPiLhxdu3XlBXTOg">
-    <mxGraphModel>
+    <mxGraphModel dx="819" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-1" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_Green_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-2" value="Usuario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-3" value="Ingresa ID &amp;amp; Nombre" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="Y9HCaT2lW4Bsu-cK8R1C-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="359.71" as="sourcePoint" />
+            <mxPoint x="300" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-4" value="" style="image;html=1;image=img/lib/clip_art/computers/Workstation_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-5" value="Sistema" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="400" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-6" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y9HCaT2lW4Bsu-cK8R1C-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="420" as="sourcePoint" />
+            <mxPoint x="540" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-7" value="Valida la informacion" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="505" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-8" value="Informacion incorrecta" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.037" width="80" relative="1" as="geometry">
+            <mxPoint x="505" y="544.71" as="sourcePoint" />
+            <mxPoint x="370" y="545" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-10" value="mensaje &quot;Ususario o contraseña incorrecta&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-11" value="Mostrar mensjae de error" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y9HCaT2lW4Bsu-cK8R1C-10" target="Y9HCaT2lW4Bsu-cK8R1C-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="510" as="sourcePoint" />
+            <mxPoint x="450" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-12" value="Información correcta" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.482;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y9HCaT2lW4Bsu-cK8R1C-7">
+          <mxGeometry x="0.199" width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="600" as="sourcePoint" />
+            <mxPoint x="370" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="539" y="640" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-13" value="Habilita al usuario a ingresar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="620" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9HCaT2lW4Bsu-cK8R1C-14" value="Concede el ingreso del usuario" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.493;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9HCaT2lW4Bsu-cK8R1C-13" target="Y9HCaT2lW4Bsu-cK8R1C-2">
+          <mxGeometry x="-0.5429" width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="639.71" as="sourcePoint" />
+            <mxPoint x="140" y="639.71" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="640" />
+              <mxPoint x="20" y="410" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
