@@ -4,29 +4,47 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="w06J5Hg8Jt2xnVp7San8-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="620" as="sourcePoint" />
-            <mxPoint x="520" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="w06J5Hg8Jt2xnVp7San8-3" value="Usuario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="710" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="w06J5Hg8Jt2xnVp7San8-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="700" as="sourcePoint" />
-            <mxPoint x="520" y="870" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="w06J5Hg8Jt2xnVp7San8-5" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png" vertex="1" parent="1">
           <mxGeometry x="240" y="620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w06J5Hg8Jt2xnVp7San8-8" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="520" y="400" width="80" height="80" as="geometry" />
+        <mxCell id="w06J5Hg8Jt2xnVp7San8-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w06J5Hg8Jt2xnVp7San8-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="680" as="sourcePoint" />
+            <mxPoint x="440" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="w06J5Hg8Jt2xnVp7San8-9" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="520" y="870" width="80" height="80" as="geometry" />
+        <mxCell id="w06J5Hg8Jt2xnVp7San8-13" value="Crea una cuenta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="625" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w06J5Hg8Jt2xnVp7San8-14" value="&amp;lt;&amp;lt;incluye&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="w06J5Hg8Jt2xnVp7San8-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="580" y="620" as="sourcePoint" />
+            <mxPoint x="640" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w06J5Hg8Jt2xnVp7San8-15" value="Ingresar edad" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="470" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w06J5Hg8Jt2xnVp7San8-17" value="&amp;lt;&amp;lt;incluye&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w06J5Hg8Jt2xnVp7San8-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="620" y="795" as="sourcePoint" />
+            <mxPoint x="740" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w06J5Hg8Jt2xnVp7San8-18" value="Digite un ID (contraseña)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="625" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w06J5Hg8Jt2xnVp7San8-19" value="Ingrese su nombre&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="770" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w06J5Hg8Jt2xnVp7San8-20" value="&amp;lt;&amp;lt;incluye&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="w06J5Hg8Jt2xnVp7San8-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="550" y="825" as="sourcePoint" />
+            <mxPoint x="640" y="800" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
